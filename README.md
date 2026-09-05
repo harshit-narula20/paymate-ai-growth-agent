@@ -155,29 +155,44 @@ Six months of historical commerce activity
 
 The dataset is designed to demonstrate scenarios involving churn, cross-selling, payment recovery, win-back campaigns, and high-intent customers.
 
-🛠️ Tech Stack
-Frontend
-React
-Vite
-Tailwind CSS
-React Router
-Axios
-Recharts
-Lucide React
-Backend
-Node.js
-Express.js
-ES Modules
-Database
-MongoDB
-Mongoose
-AI
-OpenAI API
-Deterministic business-analysis engine for reliable demonstration and fallback operation
-Testing
-Node.js HTTP integration tests
-Automated backend endpoint validation
-🏗️ System Architecture
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+- Recharts
+- Lucide React
+
+### Backend
+
+- Node.js
+- Express.js
+- ES Modules
+
+### Database
+
+- MongoDB
+- Mongoose
+
+### AI
+
+- OpenAI API
+- Deterministic business-analysis engine
+
+### Testing
+
+- Node.js HTTP integration tests
+- Automated backend endpoint validation
+
+---
+
+## 🏗️ System Architecture
+
+```text
                          ┌─────────────────────┐
                          │      Merchant       │
                          │   React Dashboard   │
@@ -194,7 +209,7 @@ Automated backend endpoint validation
                   ▼                 ▼                 ▼
           ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
           │   MongoDB    │  │   Business   │  │  AI Growth   │
-          │   Database   │  │  Analytics   │  │    Agent     │
+          │   Database   │  │   Analytics  │  │    Agent     │
           └──────────────┘  └──────────────┘  └───────┬──────┘
                                                       │
                                                       ▼
@@ -210,14 +225,15 @@ Automated backend endpoint validation
                                                       │
                                                       ▼
                                             ┌───────────────────┐
-                                            │ Campaign Execution │
-                                            │     (Demo)        │
+                                            │ Campaign Execution│
+                                            │      (Demo)       │
                                             └─────────┬─────────┘
                                                       │
                                                       ▼
                                             ┌───────────────────┐
-                                            │ Revenue & ROI Data │
+                                            │ Revenue & ROI Data│
                                             └───────────────────┘
+
 📂 Project Structure
 paymate-ai-growth-agent/
 │
@@ -341,6 +357,7 @@ npm run dev
 The backend runs on:
 
 http://localhost:5000
+
 6. Start the frontend
 
 Open a second terminal:
@@ -379,6 +396,7 @@ POST	/api/agent/execute	Execute a selected campaign workflow
 GET	/api/campaigns	Campaign records
 GET	/api/agent/actions	Agent activity history
 🔐 Responsible Automation
+```
 
 PayMate is designed with merchant oversight in mind.
 
@@ -401,7 +419,7 @@ Payment recovery
 Opportunity prioritization
 Campaign workflow
 Growth analytics
-[▶️ Watch the PayMate 5-Minute Pitch & Demo]([YOUR_GOOGLE_DRIVE_LINK](https://drive.google.com/file/d/1Fts9cgztuKaLfYxqOxg8-Z30H534Wl7x/view?usp=drive_link))
+[▶️ Watch the PayMate 5-Minute Pitch & Demo](https://drive.google.com/file/d/1Fts9cgztuKaLfYxqOxg8-Z30H534Wl7x/view?usp=drive_link)
 
 
 📸 Product Screenshots
