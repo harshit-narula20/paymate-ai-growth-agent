@@ -1,0 +1,14 @@
+{
+  "name": "paymate",
+  "version": "1.0.0",
+  "description": "PayMate - AI-Powered Autonomous Growth Agent for Commerce",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "seed:backend": "npm --prefix backend run seed",
+    "test:backend": "npm --prefix backend test",
+    "start:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
